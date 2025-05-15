@@ -1,4 +1,4 @@
-[![Test](https://img.shields.io/badge/ansible_playbook_paractice01-8A2BE2)]([https://](https://img.shields.io/badge/ansible_playbook_paractice01-8A2BE2))
+[![Test](https://img.shields.io/badge/ansible_playbook_practice01-8A2BE2)]([https://](https://img.shields.io/badge/ansible_playbook_paractice01-8A2BE2))
 [![GitHub contributors](https://img.shields.io/github/contributors/baruchgu/ansible_playbook_paractice01)](https://github.com/baruchgu/ansible_playbook_paractice01/graphs/contributors)
 [![GitHub issues](https://img.shields.io/github/issues/coderjojo/creative-profile-readme)](https://github.com/baruchgu/ansible_playbook_paractice01/issues)
 
@@ -40,6 +40,7 @@ Main run script
 - Run the Lab with six nodes in Docker containers
 - Copy the playbook setup to the mounted directory
 - Run Ansible playbook in dedicated host container
+   - Note: Ssh key check is disabled by ANSIBLE_HOST_KEY_CHECKING variable
 
 <!-- CONTRIBUTORS -->
 ## 👥 Contributor
