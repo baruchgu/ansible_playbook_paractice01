@@ -1,0 +1,38 @@
+# #######################################################
+# Purpose: Home Work summary practice of Ansible playbook sub-chapter, page 91 at Ansible Shallow Dive PDF
+# Created by: Baruch. G
+# Date:  14/05/2025
+# #######################################################
+
+-
+
+  # Hosts: lists of target hosts that we'll run playbooks on
+  hosts: all
+  #become: True
+  gather_facts: True
+  vars:
+    bash_file: /tmp/hello.sh
+    bash_code: |
+        #!/usr/bin/env bash
+        echo "Hello, all from $HOSTNAME, by $USER"
+
+  # Tasks: list of tasks that will be executed  within play, including pre and post tasks
+  tasks:
+     - name: create the hello script
+       copy:
+         content: "{{ bash_code }}"
+         dest: "{{ bash_file }}"
+         mode: 0755
+       notify: note that done
+
+     - name: run the hello script
+       shell:
+         "{{ bash_file }}"
+
+  handlers:
+    - name: note that done
+      shell: |
+        echo "{{ bash_file }}" DONE
+        
+...
+
