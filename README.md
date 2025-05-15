@@ -1,6 +1,6 @@
-[![Test](https://img.shields.io/badge/ansible_playbook_practice01-8A2BE2)]([https://](https://img.shields.io/badge/ansible_playbook_paractice01-8A2BE2))
-[![GitHub contributors](https://img.shields.io/github/contributors/baruchgu/ansible_playbook_paractice01)](https://github.com/baruchgu/ansible_playbook_paractice01/graphs/contributors)
-[![GitHub issues](https://img.shields.io/github/issues/coderjojo/creative-profile-readme)](https://github.com/baruchgu/ansible_playbook_paractice01/issues)
+[![Test](https://img.shields.io/badge/ansible_playbook_practice01-8A2BE2)]([https://](https://img.shields.io/badge/ansible_playbook_practice-8A2BE2))
+[![GitHub contributors](https://img.shields.io/github/contributors/baruchgu/ansible_playbook_practice)](https://github.com/baruchgu/ansible_playbook_practice/graphs/contributors)
+[![GitHub issues](https://img.shields.io/github/issues/coderjojo/creative-profile-readme)](https://github.com/baruchgu/ansible_playbook_practice/issues)
 
 # Ansible Playbook Summary Practice
 <!-- ABOUT THE PROJECT -->
@@ -10,7 +10,7 @@ This project is designed to practices the Ansible playbook as a part of DevOps12
 
 <!-- FOLDER STRACTURE -->
 ## 📁 Folder Structure
-**📁 <span style="display: inline-block; margin-right: 20px;">[ansible_playbook_paractice01/](./)</span>** Root directory  
+**📁 <span style="display: inline-block; margin-right: 20px;">[ansible_playbook_practice/](./)</span>** Root directory  
   - 📄 <span style="display: inline-block; margin-right: 20px;">[README.md](./README.md)</span> Project overview
   - 📄 <span style="display: inline-block; margin-right: 20px;">[TASK.md](./TASK.md)</span> The task description
   - 📄 <span style="display: inline-block; margin-right: 20px;">[LICENSE](./LICENSE)</span> MIT License note
