@@ -1,4 +1,4 @@
-[![Test](https://img.shields.io/badge/ansible_playbook_practice01-8A2BE2)]([https://](https://img.shields.io/badge/ansible_playbook_practice-8A2BE2))
+[![Test](https://img.shields.io/badge/ansible_playbook_practice-8A2BE2)]([https://](https://img.shields.io/badge/ansible_playbook_practice-8A2BE2))
 [![GitHub contributors](https://img.shields.io/github/contributors/baruchgu/ansible_playbook_practice)](https://github.com/baruchgu/ansible_playbook_practice/graphs/contributors)
 [![GitHub issues](https://img.shields.io/github/issues/coderjojo/creative-profile-readme)](https://github.com/baruchgu/ansible_playbook_practice/issues)
 
