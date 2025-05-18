@@ -18,10 +18,10 @@ This project is designed to practices the Ansible playbook as a part of DevOps12
   - **📂 <span style="display: inline-block; margin-right: 20px;">[src](./src)</span>** excutables
     - 📜 <span style="display: inline-block; margin-right: 20px;">[run_practice.sh](./src/run_practice.sh)</span> Main run script, BASH
     - **📂 <span style="display: inline-block; margin-right: 20px;">[ansible/](./src/ansible)</span>** Ansible playbook
-    - 📜 <span style="display: inline-block; margin-right: 20px;">[ansible.cfg](./src/ansible/ansible.cfg)</span> Ansible Config file
-    - 📜 <span style="display: inline-block; margin-right: 20px;">[hosts.ini](./src/ansible/hosts.ini)</span> Ansible static inventory
-    - **📂 <span style="display: inline-block; margin-right: 20px;">[yaml](./src/yaml)</span>** Playbook yaml files
-      - 📜 <span style="display: inline-block; margin-right: 20px;">[playbook.yml](./src/ansible/yaml/playbook.yml)</span> Ansible playbook
+      - 📜 <span style="display: inline-block; margin-right: 20px;">[ansible.cfg](./src/ansible/ansible.cfg)</span> Ansible Config file
+      - 📜 <span style="display: inline-block; margin-right: 20px;">[hosts.ini](./src/ansible/hosts.ini)</span> Ansible static inventory
+      - **📂 <span style="display: inline-block; margin-right: 20px;">[yaml](./src/yaml)</span>** Playbook yaml files
+        - 📜 <span style="display: inline-block; margin-right: 20px;">[playbook.yml](./src/ansible/yaml/playbook.yml)</span> Ansible playbook
 
 ## Prerequisite
 - Linux node
@@ -31,7 +31,7 @@ This project is designed to practices the Ansible playbook as a part of DevOps12
 <!-- USAGE EXAMPLES --> 
 ## 🛠️ Usage
 - Download the repository (Eg: git clone git@github.com:baruchgu/ansible_playbook_practice.git)
-- Change directory - cd ansible_playbook_practice
+- Change directory: cd ansible_playbook_practice
 - Run the main script
 ```sh
 %> bash ./src/run_practice.sh
