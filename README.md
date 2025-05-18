@@ -28,15 +28,15 @@ This project is designed to practices the Ansible playbook as a part of DevOps12
 - Installed packages: bash, git and docker
 - Read access to [GitLab](https://gitlab.com)
 
-<!-- USAGE EXAMPLES -->
-## Usage
+<!-- USAGE EXAMPLES --> 
+## 🛠️ Usage
 - Download the repository (Eg: git clone git@github.com:baruchgu/ansible_playbook_practice.git)
 - Change directory - cd ansible_playbook_practice
 - Run the main script
 ```sh
 %> bash ./src/run_practice.sh
 ```
-### Script Steps:
+### 👣 Script Steps:
 - Verify installed git and docker
 - Download whole ansible-shallow-dive course from [GitLab](https://gitlab.com)
 - Run the Lab with six nodes in Docker containers
@@ -49,7 +49,7 @@ This project is designed to practices the Ansible playbook as a part of DevOps12
 - When you face a network issue like _failed to add interface veth9847b9b to sandbox_ , act to restart the docker service: _sudo systemctl restart docker_
 
 <!-- CONTRIBUTORS -->
-## 👥 Contributor
+## 🤵Contributor
 * [Baruch](https://github.com/baruchgu) - Owner
 
 <!-- LINKS -->
