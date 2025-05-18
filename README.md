@@ -30,17 +30,23 @@ This project is designed to practices the Ansible playbook as a part of DevOps12
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-Main run script
+- Download the repository (Eg: git clone git@github.com:baruchgu/ansible_playbook_practice.git)
+- Change directory - cd ansible_playbook_practice
+- Run the main script
 ```sh
-%> ./src/run_practice.sh
+%> bash ./src/run_practice.sh
 ```
-### Steps:
+### Script Steps:
 - Verify installed git and docker
 - Download whole ansible-shallow-dive course from [GitLab](https://gitlab.com)
 - Run the Lab with six nodes in Docker containers
 - Copy the playbook setup to the mounted directory
 - Run Ansible playbook in dedicated host container
-   - Note: Ssh key check is disabled by ANSIBLE_HOST_KEY_CHECKING variable
+- Turn the nodes farm down
+### Notes:
+- Ssh key check is disabled by ANSIBLE_HOST_KEY_CHECKING variable
+- There is an option of partial download from gitlab.com (See the commented code in ./src/run_practice.sh)
+- When you face a network issue like _failed to add interface veth9847b9b to sandbox_ , act to restart the docker service: _sudo systemctl restart docker_
 
 <!-- CONTRIBUTORS -->
 ## 👥 Contributor
