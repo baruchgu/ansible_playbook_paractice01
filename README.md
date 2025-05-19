@@ -55,7 +55,7 @@ This project is for personal use and learning. Refer to the [License](./LICENSE)
   - 📄 <span style="display: inline-block; margin-right: 20px;">[TASK.md](./TASK.md)</span> The task description
   - 📄 <span style="display: inline-block; margin-right: 20px;">[LICENSE](./LICENSE)</span> MIT License note
   - 📄 <span style="display: inline-block; margin-right: 20px;">[CONTRIBUTORS](./CONTRIBUTORS.md)</span> 
-  - **📂 <span style="display: inline-block; margin-right: 20px;">[src](./src)</span>** excutables
+  - **📂 <span style="display: inline-block; margin-right: 20px;">[src](./src)</span>** the practice home work
     - 📜 <span style="display: inline-block; margin-right: 20px;">[run_practice.sh](./src/run_practice.sh)</span> Main run script, BASH
     - **📂 <span style="display: inline-block; margin-right: 20px;">[ansible/](./src/ansible)</span>** Ansible playbook
       - 📜 <span style="display: inline-block; margin-right: 20px;">[ansible.cfg](./src/ansible/ansible.cfg)</span> Ansible Config file
