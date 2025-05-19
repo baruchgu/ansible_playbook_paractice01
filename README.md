@@ -47,9 +47,8 @@ This project is designed to practices the Ansible playbook as a part of DevOps12
 This project is for personal use and learning. Refer to the [License](./LICENSE) for more details.
 
 <!-- FOLDER STRACTURE -->
-<details><summary>
 ## 📁 Folder Structure
-</summary>
+<details><summary></summary>
 
 **📁 <span style="display: inline-block; margin-right: 20px;">[ansible_playbook_practice/](./)</span>** Root directory  
   - 📄 <span style="display: inline-block; margin-right: 20px;">[README.md](./README.md)</span> Project overview
